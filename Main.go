@@ -5,8 +5,8 @@ import (
 )
 
 func main() {
-
-	str := "Hello, Medium!"
-	fmt.Printf("%v\n", string(str[4]))
-
+	str1 := "This is a"
+	str2 := " "
+	str3 := "string"
+	fmt.Printf("%v\n", str1+str2+str3)
 }
